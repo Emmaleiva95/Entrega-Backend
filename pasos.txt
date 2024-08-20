@@ -1,0 +1,20 @@
+El sistema de login permite a los usuarios autenticarse y genera un token JWT válido. *
+
+Los usuarios pueden iniciar sesión de manera exitosa y se les asigna un token JWT. *
+
+El token JWT es válido y se puede utilizar para realizar acciones protegidas en la aplicación. *
+
+
+Se han desarrollado y configurado las estrategias de Passport para el modelo de usuarios definido. *
+
+Las estrategias de Passport están correctamente configuradas para la autenticación y autorización de usuarios. *
+
+Se ha implementado una estrategia para la autenticación del usuario mediante JWT. *
+
+
+
+Se ha implementado una estrategia "current" que valida al usuario logueado y extrae sus datos mediante el endpoint /api/sessions/current. * 
+La estrategia "current" permite extraer el usuario asociado al token JWT de manera efectiva. * 
+En caso de token inválido o inexistente, se devuelve un error apropiado de Passport. *
+El endpoint /api/sessions/current funciona correctamente y devuelve los datos del usuario asociado al token JWT. *
+La validación del usuario en el endpoint es precisa y segura. *
